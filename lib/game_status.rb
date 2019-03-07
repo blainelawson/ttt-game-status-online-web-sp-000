@@ -21,7 +21,7 @@ def won?(board)
   WIN_COMBINATIONS.find do |win_combo|
     win_combo.all? {|index| board[index] == "O"}
   end
-binding.pry
+# binding.pry
   if win  == nil || win == false
     win =
     WIN_COMBINATIONS.find do |win_combo|
