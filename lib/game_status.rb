@@ -33,4 +33,5 @@ binding.pry
     win = false
   end
 binding.pry
+win
 end
