@@ -29,6 +29,8 @@ binding.pry
     end
   end
 
-  win
+  if win == nil
+    win = false
+  end
 
 end
