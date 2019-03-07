@@ -55,9 +55,6 @@ end
 
 def draw?(board)
   # binding.pry
-  if !won?(board) && full?(board)
-    true
-  else
-    false
-  end
+ !won?(board) && full?(board)
+
 end
