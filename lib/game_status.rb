@@ -29,5 +29,6 @@ def won?(board)
     end
   end
 
+  win
 
 end
