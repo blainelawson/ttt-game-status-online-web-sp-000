@@ -22,7 +22,7 @@ def won?(board)
     win_combo.all? {|index| board[index] == "O"}
   end
 
-  if win  = false
+  if win  == false
     win =
     WIN_COMBINATIONS.find do |win_combo|
       win_combo.all? {|index| board[index] == "X"}
