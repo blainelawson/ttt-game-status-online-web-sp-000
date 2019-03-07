@@ -61,7 +61,7 @@ def over?(board)
 end
 
 def winner(board)
-  # binding.pry
+  binding.pry
   if draw?(board)
     nil
   else
