@@ -49,7 +49,6 @@ def won?(board)
 end
 
 def full?(board)
-
   board.all? {|index| !index.nil? && index != " "}
 end
 
@@ -60,3 +59,6 @@ end
 def over?(board)
   won?(board) || draw?(board) || full?(board)
 end
+
+def winner(board)
+  
