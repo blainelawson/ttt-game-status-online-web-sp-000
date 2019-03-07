@@ -50,5 +50,5 @@ end
 
 def full?(board)
   binding.pry
-  board.all? {|index| position_taken?(board, index)}
+  board.all? {|index| index.nil? || index == " ")}
 end
