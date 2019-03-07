@@ -40,6 +40,6 @@ def won?(board)
   #   win_combo.all? {|index| board[index] == "X"}
   # end
 
-  
+
 
 end
