@@ -1,7 +1,7 @@
 require "pry"
 
 def position_taken?(board, index)
-  binding.pry
+  # binding.pry
   !(board[index].nil? || board[index] == " ")
 end
 
@@ -49,5 +49,6 @@ def won?(board)
 end
 
 def full?(board)
-  board.all? {|index| binding.pry position_taken?(board, index)}
+  binding.pry
+  board.all? {|index| position_taken?(board, index)}
 end
