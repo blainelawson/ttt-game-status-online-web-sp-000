@@ -28,7 +28,7 @@ describe "./lib/game_status.rb" do
       # X O X
       # O X X
       # O X O
-      
+
       expect(won?(board)).to be_falsey
     end
 
