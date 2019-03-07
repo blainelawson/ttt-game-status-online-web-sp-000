@@ -40,6 +40,10 @@ def won?(board)
   #   win_combo.all? {|index| board[index] == "X"}
   # end
 
-
-
+  WIN_COMBINATIONS.find do |win_combo|
+    win_combo.select do |index|
+      position_taken?(board, index) &&
+      board[index] 
+    end
+  end
 end
