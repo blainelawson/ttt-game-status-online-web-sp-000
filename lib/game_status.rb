@@ -45,7 +45,7 @@ def won?(board)
       binding.pry
       position_taken?(board, index)
     end
-    && 
+    &&
     board[win_combo[0]] == board[win_combo[1]] == board[win_combo[2]]
   end
 end
