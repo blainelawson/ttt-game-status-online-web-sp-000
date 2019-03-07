@@ -42,6 +42,7 @@ def won?(board)
 
   WIN_COMBINATIONS.find do |win_combo|
     win_combo.select do |index|
+      binding.pry
       position_taken?(board, index) &&
       board[index]
     end
