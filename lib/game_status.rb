@@ -62,5 +62,9 @@ end
 
 def winner(board)
   # binding.pry
-  board[won?(board)[0]]
+  if draw?(board)
+    nil
+  else
+    board[won?(board)[0]]
+  end
 end
