@@ -49,6 +49,6 @@ def won?(board)
 end
 
 def full?(board)
-  binding.pry
+
   board.all? {|index| index.nil? || index == " ")}
 end
