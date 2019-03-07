@@ -32,5 +32,5 @@ binding.pry
   if win == nil
     win = false
   end
-
+binding.pry
 end
