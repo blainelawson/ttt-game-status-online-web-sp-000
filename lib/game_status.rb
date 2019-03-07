@@ -50,5 +50,5 @@ end
 
 def full?(board)
 
-  board.all? {|index| !index.nil? && !index == " "}
+  board.all? {|index| !index.nil? && index != " "}
 end
